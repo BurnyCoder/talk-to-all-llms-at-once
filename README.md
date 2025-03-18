@@ -10,14 +10,6 @@ A tool for simultaneously querying multiple leading language models through the 
 - **Result Persistence**: Save all responses and metrics to JSON files for later analysis
 - **Clean API Integration**: Uses an OpenRouterClient wrapper for simplified API interactions
 
-## 📋 Supported Models
-
-Currently queries these state-of-the-art models in parallel:
-
-- **Claude 3.7 Sonnet** (Anthropic's advanced model)
-- **Gemini Pro 1.5** (Google's large language model)
-- **O1** (OpenAI's most advanced model)
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -82,40 +74,6 @@ The script uses a modular approach:
 2. **ThreadPoolExecutor**: For parallel execution of API requests to different models
 3. **Rich Console**: For beautiful terminal output with colors and formatting
 
-Here's the core function that queries the models in parallel:
-
-```python
-def query_models_in_parallel(prompt):
-    """
-    Query multiple models in parallel and return their responses.
-    """
-    # Models to query
-    models = [
-        "anthropic/claude-3.7-sonnet",
-        "google/gemini-pro-1.5",
-        "openai/o1"
-    ]
-    
-    # Create the OpenRouter client
-    client = OpenRouterClient(
-        site_url="https://talk-to-all-llms-at-once",
-        site_name="LLM Comparison Tool"
-    )
-    
-    with concurrent.futures.ThreadPoolExecutor(max_workers=len(models)) as executor:
-        # Start the query operations and mark each future with its model
-        future_to_model = {
-            executor.submit(query_model, model_id, prompt, client): model_id
-            for model_id in models
-        }
-        
-        results = []
-        for future in concurrent.futures.as_completed(future_to_model):
-            results.append(future.result())
-            
-    return results
-```
-
 ## 📝 Additional Features
 
 ### Available Models Listing
@@ -128,56 +86,22 @@ python list_models.py
 
 This will generate a `models.txt` file with comprehensive information about all available models on OpenRouter, sorted by price (from most expensive to least expensive).
 
-### OpenRouter Client Wrapper
-
-The project includes a clean OpenRouter client wrapper (`openrouter.py`) that simplifies interactions with the API:
-
-```python
-from openrouter import OpenRouterClient
-
-# Create client
-client = OpenRouterClient()
-
-# Generate completion
-response = client.generate_completion([
-    {"role": "user", "content": "What is the meaning of life?"}
-])
-
-# Get the response
-print(response.choices[0].message.content)
-```
-
 ## 🛠️ Customization
 
-### Adding or Changing Models
+### Modifying the Model List
 
-To modify which models are queried, edit the `models` list in the `query_models_in_parallel` function:
+The models list is defined at the top of the `parallel_query.py` file. You can easily modify this list to include or exclude specific models:
 
 ```python
-# Models to query
-models = [
-    "anthropic/claude-3.7-sonnet",
-    "google/gemini-pro-1.5", 
-    "openai/o1"
-    # Add or replace models here
+# List of models to query
+MODELS = [
+    "anthropic/claude-3-7-sonnet-thinking",
+    "openai/o3-mini-2025-01-31-high",
+    # Add or remove models as needed
 ]
 ```
 
-Refer to the generated `models.txt` file for a comprehensive list of available models on OpenRouter.
-
-## 📊 Data Analysis
-
-The saved JSON files can be used for:
-- Comparing model performance across different types of prompts
-- Analyzing response patterns and differences
-- Creating visualizations of model performance
-- Building datasets of comparative model responses
-
-## 🔒 Security Notes
-
-- Your API key should be kept confidential
-- This tool accesses paid API services that may incur costs
-- Be mindful of token usage when sending large prompts
+Refer to the generated `models.txt` file or `models.json` for a comprehensive list of available models on OpenRouter.
 
 ## 📜 License
 
@@ -186,4 +110,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙏 Acknowledgments
 
 - [OpenRouter](https://openrouter.ai/) for providing unified access to multiple LLM APIs
-- The teams at Anthropic, Google, and OpenAI for developing these amazing models
+- The teams at Anthropic, Google, OpenAI, Meta, xAI, Alibaba, DeepSeek, and other AI labs for developing these amazing models

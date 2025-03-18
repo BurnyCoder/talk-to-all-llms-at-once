@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script to call multiple LLM models in parallel via OpenRouter API and compare their outputs.
-Models are loaded from the models list provided by the user.
+Models: Claude 3.7 Sonnet, Gemini 2 Pro, and O1
 """
 import json
 import time
@@ -14,44 +14,6 @@ from openrouter import OpenRouterClient
 
 # Initialize rich console for nicer output
 console = Console()
-
-# List of models to query
-MODELS = [
-    "anthropic/claude-3-7-sonnet-thinking",
-    "openai/o3-mini-2025-01-31-high",
-    "openai/o1-2024-12-17-high",
-    "xai/grok-3-thinking",
-    "alibaba/qwq-32b",
-    "deepseek/deepseek-r1",
-    "openai/o3-mini-2025-01-31-medium",
-    "openai/gpt-4.5-preview",
-    "google/gemini-2.0-flash-thinking-exp-01-21",
-    "anthropic/claude-3-7-sonnet",
-    "google/gemini-2.0-pro-exp-02-05",
-    "google/gemini-exp-1206",
-    "openai/o3-mini-2025-01-31-low",
-    "alibaba/qwen2.5-max",
-    "google/gemini-2.0-flash",
-    "deepseek/deepseek-v3",
-    "google/gemini-2.0-flash-exp",
-    "anthropic/claude-3-5-sonnet-20241022",
-    "xai/grok-3",
-    "openai/chatgpt-4o-latest-2025-01-29",
-    "openai/o1-mini-2024-09-12",
-    "stepfun/step-2-16k-202411",
-    "openai/gpt-4o-2024-08-06",
-    "deepseek/deepseek-r1-distill-llama-70b",
-    "xai/grok-2-1212",
-    "google/gemini-2.0-flash-lite",
-    "google/gemini-2.0-flash-lite-preview-02-05",
-    "abacusai/dracarys2-72b-instruct",
-    "meta/meta-llama-3.1-405b-instruct-turbo",
-    "openai/gpt-4o-2024-11-20",
-    "google/learnlm-1.5-pro-experimental",
-    "alibaba/qwen2.5-72b-instruct-turbo",
-    "meta/llama-3.3-70b-instruct-turbo",
-    "google/gemma-3-27b-it"
-]
 
 def query_model(model_id, prompt, client):
     """
@@ -108,18 +70,24 @@ def query_models_in_parallel(prompt):
     Returns:
         list: A list of response dictionaries from each model
     """
+    # Models to query
+    models = [
+        "anthropic/claude-3.7-sonnet",
+        "google/gemini-pro-1.5",
+        "openai/o1"
+    ]
+    
     # Create the OpenRouter client
     client = OpenRouterClient(
         site_url="https://talk-to-all-llms-at-once",
         site_name="LLM Comparison Tool"
     )
     
-    # Use ThreadPoolExecutor to query models in parallel
-    with concurrent.futures.ThreadPoolExecutor(max_workers=len(MODELS)) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(models)) as executor:
         # Start the query operations and mark each future with its model
         future_to_model = {
             executor.submit(query_model, model_id, prompt, client): model_id
-            for model_id in MODELS
+            for model_id in models
         }
         
         results = []
@@ -189,7 +157,7 @@ def display_results(results, prompt):
 def main():
     """Main function to query models and display results."""
     console.print("[bold blue]Multi-Model Comparison Tool[/bold blue]")
-    console.print(f"[italic]Compare responses from {len(MODELS)} models[/italic]\n")
+    console.print("[italic]Compare responses from Claude 3.7 Sonnet, Gemini 2 Pro, and O1[/italic]\n")
     
     # Get the prompt from the user
     prompt = console.input("[bold cyan]Enter your prompt:[/bold cyan]\n")
@@ -198,7 +166,7 @@ def main():
         console.print("[bold red]Prompt cannot be empty. Exiting.[/bold red]")
         return
     
-    console.print(f"\n[bold yellow]Querying {len(MODELS)} models in parallel...[/bold yellow]")
+    console.print("\n[bold yellow]Querying models in parallel...[/bold yellow]")
     
     try:
         results = query_models_in_parallel(prompt)
