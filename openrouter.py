@@ -44,13 +44,32 @@ class OpenRouterClient:
             messages=messages
         )
         
+        return completion
+    
+    def generate_answer(self, messages, model="openai/gpt-4o"):
+        """
+        Generate a completion using the OpenRouter API.
+        
+        Args:
+            messages (list): List of message dictionaries
+            model (str, optional): Model to use for completion
+            
+        Returns:
+            str: The generated completion text
+        """
+        completion = self.client.chat.completions.create(
+            #extra_headers=self.extra_headers,
+            model=model,
+            messages=messages
+        )
+        
         return completion.choices[0].message.content
 
 
 # Example usage
 if __name__ == "__main__":
     router = OpenRouterClient()
-    response = router.generate_completion([
+    response = router.generate_answer([
         {
             "role": "user",
             "content": "What is the meaning of life?"

@@ -16,7 +16,7 @@ client = OpenRouterClient()
 prompt = input("Enter your prompt for Claude 3.7 Sonnet: ")
 
 # Call Claude 3.7 Sonnet
-response = client.client.chat.completions.create(
+response = client.generate_completion(
     model="anthropic/claude-3-7-sonnet",
     messages=[{"role": "user", "content": prompt}]
 )

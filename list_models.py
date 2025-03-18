@@ -55,7 +55,8 @@ def get_openrouter_models():
 
 def save_models_to_file(models_data, filename="models.txt"):
     """
-    Save the models data to a text file.
+    Save the models data to a text file, sorted by price from priciest to cheapest.
+    Includes all available information for each model.
     
     Args:
         models_data (dict): The models data from OpenRouter API
@@ -63,28 +64,75 @@ def save_models_to_file(models_data, filename="models.txt"):
     """
     with open(filename, 'w') as f:
         f.write("OpenRouter Available Models:\n")
+        f.write("Sorted by Price (priciest to cheapest):\n")
         f.write("==========================\n\n")
         
         # Extract the data array from the response
         models = models_data.get('data', [])
         
-        for model in models:
-            model_id = model.get('id', 'Unknown')
-            context_length = model.get('context_length', 'Unknown')
+        # Define a function to calculate total price for sorting
+        def get_total_price(model):
             pricing = model.get('pricing', {})
+            prompt_price = float(pricing.get('prompt', 0))
+            completion_price = float(pricing.get('completion', 0))
+            return prompt_price + completion_price
+        
+        # Sort models by total price (prompt + completion) in descending order
+        sorted_models = sorted(models, key=get_total_price, reverse=True)
+        
+        for model in sorted_models:
+            # Calculate total price for display
+            pricing = model.get('pricing', {})
+            prompt_price = float(pricing.get('prompt', 0))
+            completion_price = float(pricing.get('completion', 0))
+            total_price = prompt_price + completion_price
             
-            f.write(f"Model ID: {model_id}\n")
-            f.write(f"Context Length: {context_length}\n")
+            # Display model ID and total price first for easier reference
+            f.write(f"Model ID: {model.get('id', 'Unknown')}\n")
+            f.write(f"Total Price (prompt + completion): {total_price:.10f}\n")
             
-            if pricing:
-                f.write("Pricing:\n")
-                for key, value in pricing.items():
-                    f.write(f"  - {key}: {value}\n")
+            # Now display all available fields for the model
+            for key, value in model.items():
+                if key == 'id':
+                    # Already displayed at the top
+                    continue
+                
+                if key == 'pricing':
+                    # Pricing is displayed in a special format
+                    f.write("Pricing:\n")
+                    for price_key, price_value in value.items():
+                        f.write(f"  - {price_key}: {price_value}\n")
+                elif isinstance(value, dict):
+                    # Handle nested dictionaries
+                    f.write(f"{key.title()}:\n")
+                    for sub_key, sub_value in value.items():
+                        f.write(f"  - {sub_key}: {sub_value}\n")
+                elif isinstance(value, list):
+                    # Handle lists
+                    f.write(f"{key.title()}:\n")
+                    for item in value:
+                        if isinstance(item, dict):
+                            # If list contains dictionaries
+                            for item_key, item_value in item.items():
+                                f.write(f"  - {item_key}: {item_value}\n")
+                        else:
+                            f.write(f"  - {item}\n")
+                else:
+                    # Simple key-value pairs
+                    f.write(f"{key.title()}: {value}\n")
             
             f.write("\n")
+            f.write("-" * 50 + "\n\n")
             
-        f.write(f"\nTotal models available: {len(models)}\n")
+        # Add summary information at the end
+        f.write(f"Total models available: {len(models)}\n")
         f.write(f"Data retrieved from: https://openrouter.ai/api/v1/models\n")
+        f.write(f"Models are sorted by total price (priciest to cheapest)\n")
+        
+        # Include any additional metadata from the API response
+        for key, value in models_data.items():
+            if key != 'data':  # Skip the models array which we've already processed
+                f.write(f"\n{key.title()}: {value}\n")
 
 
 def main():
