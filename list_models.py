@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script to fetch all available models from OpenRouter API and save to models.txt.
+Script to fetch all available models from OpenRouter API and save to models.json.
 Uses curl subprocess for the API request.
 """
 import json
@@ -51,6 +51,41 @@ def get_openrouter_models():
         print(f"Error parsing JSON response: {e}")
         print(f"Response: {result.stdout}")
         raise
+
+
+def save_models_to_json(models_data, filename="models.json"):
+    """
+    Save the models data to a JSON file, sorted by price from most expensive to least expensive.
+    
+    Args:
+        models_data (dict): The models data from OpenRouter API
+        filename (str, optional): The filename to save to. Defaults to "models.json".
+    """
+    try:
+        # Extract the models
+        models = models_data.get('data', [])
+        
+        # Define a function to calculate total price for sorting
+        def get_total_price(model):
+            pricing = model.get('pricing', {})
+            prompt_price = float(pricing.get('prompt', 0))
+            completion_price = float(pricing.get('completion', 0))
+            return prompt_price + completion_price
+        
+        # Sort models by total price (prompt + completion) in descending order
+        sorted_models = sorted(models, key=get_total_price, reverse=True)
+        
+        # Create a new data structure with sorted models
+        sorted_data = models_data.copy()
+        sorted_data['data'] = sorted_models
+        
+        # Save the sorted data to JSON
+        with open(filename, 'w') as f:
+            json.dump(sorted_data, f, indent=4)
+        return True
+    except Exception as e:
+        print(f"Error saving models to JSON: {e}")
+        return False
 
 
 def save_models_to_file(models_data, filename="models.txt"):
@@ -141,10 +176,11 @@ def main():
         print("Fetching models from OpenRouter API...")
         models_data = get_openrouter_models()
         
-        print("Saving models to models.txt...")
-        save_models_to_file(models_data)
-        
-        print("Successfully saved models information to models.txt")
+        print("Saving models to models.json...")
+        if save_models_to_json(models_data):
+            print("Successfully saved models information to models.json")
+        else:
+            print("Failed to save models to JSON")
     except Exception as e:
         print(f"An error occurred: {e}")
 
