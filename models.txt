@@ -1,0 +1,3342 @@
+OpenRouter Available Models:
+==========================
+
+Model ID: mistralai/mistral-small-3.1-24b-instruct
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000001
+  - completion: 0.0000003
+  - image: 0.000926
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: open-r1/olympiccoder-7b:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: open-r1/olympiccoder-32b:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: steelskull/l3.3-electra-r1-70b
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000007
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: allenai/olmo-2-0325-32b-instruct
+Context Length: 4096
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.0000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-3-1b-it:free
+Context Length: 32000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-3-4b-it:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: ai21/jamba-1.6-large
+Context Length: 256000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: ai21/jamba-1.6-mini
+Context Length: 256000
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-3-12b-it:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-a
+Context Length: 256000
+Pricing:
+  - prompt: 0.0000025
+  - completion: 0.00001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o-mini-search-preview
+Context Length: 128000
+Pricing:
+  - prompt: 0.00000015
+  - completion: 0.0000006
+  - image: 0.000217
+  - request: 0.0275
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o-search-preview
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000025
+  - completion: 0.00001
+  - image: 0.003613
+  - request: 0.035
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: tokyotech-llm/llama-3.1-swallow-70b-instruct-v0.3
+Context Length: 16384
+Pricing:
+  - prompt: 0.0000006
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: rekaai/reka-flash-3:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-3-27b-it:free
+Context Length: 96000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-3-27b-it
+Context Length: 131072
+Pricing:
+  - prompt: 0.0000001
+  - completion: 0.0000002
+  - image: 0.0000256
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: thedrummer/anubis-pro-105b-v1
+Context Length: 64000
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: latitudegames/wayfarer-large-70b-llama-3.3
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000007
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: thedrummer/skyfall-36b-v2
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/phi-4-multimodal-instruct
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000005
+  - completion: 0.0000001
+  - image: 0.00017685
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/sonar-reasoning-pro
+Context Length: 128000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/sonar-pro
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/sonar-deep-research
+Context Length: 200000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-zero:free
+Context Length: 163840
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwq-32b:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwq-32b
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000012
+  - completion: 0.00000018
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen2.5-32b-instruct
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000079
+  - completion: 0.00000079
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: moonshotai/moonlight-16b-a3b-instruct:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nousresearch/deephermes-3-llama-3-8b-preview:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4.5-preview
+Context Length: 128000
+Pricing:
+  - prompt: 0.000075
+  - completion: 0.00015
+  - image: 0.108375
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-2.0-flash-lite-001
+Context Length: 1048576
+Pricing:
+  - prompt: 0.000000075
+  - completion: 0.0000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.7-sonnet:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.7-sonnet
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.7-sonnet:thinking
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/r1-1776
+Context Length: 128000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-saba
+Context Length: 32000
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cognitivecomputations/dolphin3.0-r1-mistral-24b:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cognitivecomputations/dolphin3.0-mistral-24b:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-guard-3-8b
+Context Length: 8192
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/o3-mini-high
+Context Length: 200000
+Pricing:
+  - prompt: 0.0000011
+  - completion: 0.0000044
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: allenai/llama-3.1-tulu-3-405b
+Context Length: 16384
+Pricing:
+  - prompt: 0.000005
+  - completion: 0.00001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-llama-8b
+Context Length: 32000
+Pricing:
+  - prompt: 0.00000004
+  - completion: 0.00000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-2.0-flash-001
+Context Length: 1000000
+Pricing:
+  - prompt: 0.0000001
+  - completion: 0.0000004
+  - image: 0.0000258
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-2.0-flash-lite-preview-02-05:free
+Context Length: 1000000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-2.0-pro-exp-02-05:free
+Context Length: 2000000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-vl-plus
+Context Length: 7500
+Pricing:
+  - prompt: 0.00000021
+  - completion: 0.00000063
+  - image: 0.0002688
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: aion-labs/aion-1.0
+Context Length: 32768
+Pricing:
+  - prompt: 0.000004
+  - completion: 0.000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: aion-labs/aion-1.0-mini
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000014
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: aion-labs/aion-rp-llama-3.1-8b
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-vl-max
+Context Length: 7500
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000032
+  - image: 0.001024
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-turbo
+Context Length: 1000000
+Pricing:
+  - prompt: 0.00000005
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen2.5-vl-72b-instruct:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen2.5-vl-72b-instruct
+Context Length: 32000
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000007
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-plus
+Context Length: 131072
+Pricing:
+  - prompt: 0.0000004
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-max
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000016
+  - completion: 0.0000064
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/o3-mini
+Context Length: 200000
+Pricing:
+  - prompt: 0.0000011
+  - completion: 0.0000044
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-qwen-1.5b
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000018
+  - completion: 0.00000018
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-small-24b-instruct-2501:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-small-24b-instruct-2501
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000007
+  - completion: 0.00000014
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-qwen-32b:free
+Context Length: 16000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-qwen-32b
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000012
+  - completion: 0.00000018
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-qwen-14b:free
+Context Length: 64000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-qwen-14b
+Context Length: 64000
+Pricing:
+  - prompt: 0.00000015
+  - completion: 0.00000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/sonar-reasoning
+Context Length: 127000
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000005
+  - image: 0
+  - request: 0.005
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/sonar
+Context Length: 127072
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000001
+  - image: 0
+  - request: 0.005
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: liquid/lfm-7b
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000001
+  - completion: 0.00000001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: liquid/lfm-3b
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000002
+  - completion: 0.00000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-llama-70b:free
+Context Length: 128000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1-distill-llama-70b
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000023
+  - completion: 0.00000069
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-2.0-flash-thinking-exp:free
+Context Length: 1048576
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1:free
+Context Length: 163840
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-r1
+Context Length: 64000
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000025
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sophosympatheia/rogue-rose-103b-v0.2:free
+Context Length: 4096
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: minimax/minimax-01
+Context Length: 1000192
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000011
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/codestral-2501
+Context Length: 256000
+Pricing:
+  - prompt: 0.0000003
+  - completion: 0.0000009
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/phi-4
+Context Length: 16384
+Pricing:
+  - prompt: 0.00000007
+  - completion: 0.00000014
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sao10k/l3.1-70b-hanami-x1
+Context Length: 16000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-chat:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: deepseek/deepseek-chat
+Context Length: 64000
+Pricing:
+  - prompt: 0.0000004
+  - completion: 0.0000013
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-2.0-flash-thinking-exp-1219:free
+Context Length: 40000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sao10k/l3.3-euryale-70b
+Context Length: 131072
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/o1
+Context Length: 200000
+Pricing:
+  - prompt: 0.000015
+  - completion: 0.00006
+  - image: 0.021675
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: eva-unit-01/eva-llama-3.33-70b
+Context Length: 16384
+Pricing:
+  - prompt: 0.000004
+  - completion: 0.000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: x-ai/grok-2-vision-1212
+Context Length: 32768
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.00001
+  - image: 0.0036
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: x-ai/grok-2-1212
+Context Length: 131072
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.00001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-r7b-12-2024
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000000375
+  - completion: 0.00000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-2.0-flash-exp:free
+Context Length: 1048576
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-exp-1206:free
+Context Length: 2097152
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.3-70b-instruct:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.3-70b-instruct
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000012
+  - completion: 0.0000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: amazon/nova-lite-v1
+Context Length: 300000
+Pricing:
+  - prompt: 0.00000006
+  - completion: 0.00000024
+  - image: 0.00009
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: amazon/nova-micro-v1
+Context Length: 128000
+Pricing:
+  - prompt: 0.000000035
+  - completion: 0.00000014
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: amazon/nova-pro-v1
+Context Length: 300000
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000032
+  - image: 0.0012
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwq-32b-preview:free
+Context Length: 16384
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwq-32b-preview
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/learnlm-1.5-pro-experimental:free
+Context Length: 40960
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: eva-unit-01/eva-qwen-2.5-72b
+Context Length: 32000
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000007
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o-2024-11-20
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000025
+  - completion: 0.00001
+  - image: 0.003613
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-large-2411
+Context Length: 128000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-large-2407
+Context Length: 128000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/pixtral-large-2411
+Context Length: 128000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000006
+  - image: 0.002888
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: x-ai/grok-vision-beta
+Context Length: 8192
+Pricing:
+  - prompt: 0.000005
+  - completion: 0.000015
+  - image: 0.009
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: infermatic/mn-inferor-12b
+Context Length: 16384
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2.5-coder-32b-instruct:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2.5-coder-32b-instruct
+Context Length: 33000
+Pricing:
+  - prompt: 0.00000007
+  - completion: 0.00000016
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: raifle/sorcererlm-8x22b
+Context Length: 16000
+Pricing:
+  - prompt: 0.0000045
+  - completion: 0.0000045
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: eva-unit-01/eva-qwen-2.5-32b
+Context Length: 16384
+Pricing:
+  - prompt: 0.0000026
+  - completion: 0.0000034
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: thedrummer/unslopnemo-12b
+Context Length: 32000
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-haiku-20241022:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-haiku-20241022
+Context Length: 200000
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-haiku:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-haiku
+Context Length: 200000
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: neversleep/llama-3.1-lumimaid-70b
+Context Length: 16384
+Pricing:
+  - prompt: 0.000003375
+  - completion: 0.0000045
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthracite-org/magnum-v4-72b
+Context Length: 16384
+Pricing:
+  - prompt: 0.000001875
+  - completion: 0.00000225
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-sonnet:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-sonnet
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: x-ai/grok-beta
+Context Length: 131072
+Pricing:
+  - prompt: 0.000005
+  - completion: 0.000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/ministral-8b
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000001
+  - completion: 0.0000001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/ministral-3b
+Context Length: 128000
+Pricing:
+  - prompt: 0.00000004
+  - completion: 0.00000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2.5-7b-instruct
+Context Length: 32768
+Pricing:
+  - prompt: 0.000000025
+  - completion: 0.00000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nvidia/llama-3.1-nemotron-70b-instruct:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nvidia/llama-3.1-nemotron-70b-instruct
+Context Length: 131000
+Pricing:
+  - prompt: 0.00000012
+  - completion: 0.0000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: inflection/inflection-3-pi
+Context Length: 8000
+Pricing:
+  - prompt: 0.0000025
+  - completion: 0.00001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: inflection/inflection-3-productivity
+Context Length: 8000
+Pricing:
+  - prompt: 0.0000025
+  - completion: 0.00001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-flash-1.5-8b
+Context Length: 1000000
+Pricing:
+  - prompt: 0.0000000375
+  - completion: 0.00000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthracite-org/magnum-v2-72b
+Context Length: 32768
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: liquid/lfm-40b
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000015
+  - completion: 0.00000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: thedrummer/rocinante-12b
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000025
+  - completion: 0.0000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.2-3b-instruct:free
+Context Length: 20000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.2-3b-instruct
+Context Length: 131000
+Pricing:
+  - prompt: 0.000000015
+  - completion: 0.000000025
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.2-1b-instruct:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.2-1b-instruct
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000001
+  - completion: 0.00000001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.2-90b-vision-instruct
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000016
+  - image: 0.0051456
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.2-11b-vision-instruct:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.2-11b-vision-instruct
+Context Length: 16384
+Pricing:
+  - prompt: 0.000000055
+  - completion: 0.000000055
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2.5-72b-instruct:free
+Context Length: 32768
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2.5-72b-instruct
+Context Length: 128000
+Pricing:
+  - prompt: 0.00000013
+  - completion: 0.0000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2.5-vl-72b-instruct
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000006
+  - completion: 0.0000006
+  - image: 0.000578
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: neversleep/llama-3.1-lumimaid-8b
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000001875
+  - completion: 0.000001125
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/o1-mini-2024-09-12
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000011
+  - completion: 0.0000044
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/o1-preview
+Context Length: 128000
+Pricing:
+  - prompt: 0.000015
+  - completion: 0.00006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/o1-preview-2024-09-12
+Context Length: 128000
+Pricing:
+  - prompt: 0.000015
+  - completion: 0.00006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/o1-mini
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000011
+  - completion: 0.0000044
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/pixtral-12b
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000001
+  - completion: 0.0000001
+  - image: 0.0001445
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-r-08-2024
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000001425
+  - completion: 0.00000057
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-r-plus-08-2024
+Context Length: 128000
+Pricing:
+  - prompt: 0.000002375
+  - completion: 0.0000095
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sao10k/l3.1-euryale-70b
+Context Length: 131072
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-flash-1.5-8b-exp
+Context Length: 1000000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2.5-vl-7b-instruct
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0.0001445
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: ai21/jamba-1-5-large
+Context Length: 256000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: ai21/jamba-1-5-mini
+Context Length: 256000
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/phi-3.5-mini-128k-instruct
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000001
+  - completion: 0.0000001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nousresearch/hermes-3-llama-3.1-70b
+Context Length: 131000
+Pricing:
+  - prompt: 0.00000012
+  - completion: 0.0000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nousresearch/hermes-3-llama-3.1-405b
+Context Length: 131000
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/chatgpt-4o-latest
+Context Length: 128000
+Pricing:
+  - prompt: 0.000005
+  - completion: 0.000015
+  - image: 0.007225
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sao10k/l3-lunaris-8b
+Context Length: 8192
+Pricing:
+  - prompt: 0.00000003
+  - completion: 0.00000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: aetherwiing/mn-starcannon-12b
+Context Length: 16384
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o-2024-08-06
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000025
+  - completion: 0.00001
+  - image: 0.003613
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.1-405b
+Context Length: 32768
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nothingiisreal/mn-celeste-12b
+Context Length: 16384
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/llama-3.1-sonar-small-128k-chat
+Context Length: 131072
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/llama-3.1-sonar-large-128k-chat
+Context Length: 131072
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/llama-3.1-sonar-large-128k-online
+Context Length: 127072
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000001
+  - image: 0
+  - request: 0.005
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: perplexity/llama-3.1-sonar-small-128k-online
+Context Length: 127072
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0.005
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.1-405b-instruct
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.1-8b-instruct:free
+Context Length: 131072
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.1-8b-instruct
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000002
+  - completion: 0.00000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3.1-70b-instruct
+Context Length: 131072
+Pricing:
+  - prompt: 0.00000012
+  - completion: 0.0000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-nemo:free
+Context Length: 128000
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-nemo
+Context Length: 131072
+Pricing:
+  - prompt: 0.000000035
+  - completion: 0.00000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/codestral-mamba
+Context Length: 256000
+Pricing:
+  - prompt: 0.00000025
+  - completion: 0.00000025
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o-mini
+Context Length: 128000
+Pricing:
+  - prompt: 0.00000015
+  - completion: 0.0000006
+  - image: 0.000217
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o-mini-2024-07-18
+Context Length: 128000
+Pricing:
+  - prompt: 0.00000015
+  - completion: 0.0000006
+  - image: 0.007225
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2-7b-instruct:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2-7b-instruct
+Context Length: 32768
+Pricing:
+  - prompt: 0.000000054
+  - completion: 0.000000054
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-2-27b-it
+Context Length: 8192
+Pricing:
+  - prompt: 0.00000027
+  - completion: 0.00000027
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: alpindale/magnum-72b
+Context Length: 16384
+Pricing:
+  - prompt: 0.000001875
+  - completion: 0.00000225
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-2-9b-it:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-2-9b-it
+Context Length: 8192
+Pricing:
+  - prompt: 0.00000003
+  - completion: 0.00000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: 01-ai/yi-large
+Context Length: 32768
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: ai21/jamba-instruct
+Context Length: 256000
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000007
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-sonnet-20240620:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3.5-sonnet-20240620
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sao10k/l3-euryale-70b
+Context Length: 8192
+Pricing:
+  - prompt: 0.0000007
+  - completion: 0.0000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cognitivecomputations/dolphin-mixtral-8x22b
+Context Length: 16000
+Pricing:
+  - prompt: 0.0000009
+  - completion: 0.0000009
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: qwen/qwen-2-72b-instruct
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000009
+  - completion: 0.0000009
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-7b-instruct:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-7b-instruct
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000003
+  - completion: 0.000000055
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-7b-instruct-v0.3
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000003
+  - completion: 0.000000055
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nousresearch/hermes-2-pro-llama-3-8b
+Context Length: 131000
+Pricing:
+  - prompt: 0.000000025
+  - completion: 0.00000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/phi-3-mini-128k-instruct:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/phi-3-mini-128k-instruct
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000001
+  - completion: 0.0000001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/phi-3-medium-128k-instruct:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/phi-3-medium-128k-instruct
+Context Length: 128000
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000001
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: neversleep/llama-3-lumimaid-70b
+Context Length: 8192
+Pricing:
+  - prompt: 0.000003375
+  - completion: 0.0000045
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-flash-1.5
+Context Length: 1000000
+Pricing:
+  - prompt: 0.000000075
+  - completion: 0.0000003
+  - image: 0.00004
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o-2024-05-13
+Context Length: 128000
+Pricing:
+  - prompt: 0.000005
+  - completion: 0.000015
+  - image: 0.007225
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-guard-2-8b
+Context Length: 8192
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o
+Context Length: 128000
+Pricing:
+  - prompt: 0.0000025
+  - completion: 0.00001
+  - image: 0.003613
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4o:extended
+Context Length: 128000
+Pricing:
+  - prompt: 0.000006
+  - completion: 0.000018
+  - image: 0.007225
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: neversleep/llama-3-lumimaid-8b:extended
+Context Length: 24576
+Pricing:
+  - prompt: 0.0000001875
+  - completion: 0.000001125
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: neversleep/llama-3-lumimaid-8b
+Context Length: 24576
+Pricing:
+  - prompt: 0.0000001875
+  - completion: 0.000001125
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sao10k/fimbulvetr-11b-v2
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3-8b-instruct:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3-8b-instruct
+Context Length: 8192
+Pricing:
+  - prompt: 0.00000003
+  - completion: 0.00000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-3-70b-instruct
+Context Length: 8192
+Pricing:
+  - prompt: 0.00000023
+  - completion: 0.0000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mixtral-8x22b-instruct
+Context Length: 65536
+Pricing:
+  - prompt: 0.0000009
+  - completion: 0.0000009
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/wizardlm-2-8x22b
+Context Length: 65536
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: microsoft/wizardlm-2-7b
+Context Length: 32000
+Pricing:
+  - prompt: 0.00000007
+  - completion: 0.00000007
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-pro-1.5
+Context Length: 2000000
+Pricing:
+  - prompt: 0.00000125
+  - completion: 0.000005
+  - image: 0.0006575
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4-turbo
+Context Length: 128000
+Pricing:
+  - prompt: 0.00001
+  - completion: 0.00003
+  - image: 0.01445
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-r-plus
+Context Length: 128000
+Pricing:
+  - prompt: 0.00000285
+  - completion: 0.00001425
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-r-plus-04-2024
+Context Length: 128000
+Pricing:
+  - prompt: 0.00000285
+  - completion: 0.00001425
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: sophosympatheia/midnight-rose-70b
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000008
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command
+Context Length: 4096
+Pricing:
+  - prompt: 0.00000095
+  - completion: 0.0000019
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-r
+Context Length: 128000
+Pricing:
+  - prompt: 0.000000475
+  - completion: 0.000001425
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3-haiku:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.00000025
+  - completion: 0.00000125
+  - image: 0.0004
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3-haiku
+Context Length: 200000
+Pricing:
+  - prompt: 0.00000025
+  - completion: 0.00000125
+  - image: 0.0004
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3-opus:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.000015
+  - completion: 0.000075
+  - image: 0.024
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3-opus
+Context Length: 200000
+Pricing:
+  - prompt: 0.000015
+  - completion: 0.000075
+  - image: 0.024
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3-sonnet:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-3-sonnet
+Context Length: 200000
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000015
+  - image: 0.0048
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cohere/command-r-03-2024
+Context Length: 128000
+Pricing:
+  - prompt: 0.000000475
+  - completion: 0.000001425
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-large
+Context Length: 128000
+Pricing:
+  - prompt: 0.000002
+  - completion: 0.000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemma-7b-it
+Context Length: 8192
+Pricing:
+  - prompt: 0.00000015
+  - completion: 0.00000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-3.5-turbo-0613
+Context Length: 4095
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4-turbo-preview
+Context Length: 128000
+Pricing:
+  - prompt: 0.00001
+  - completion: 0.00003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nousresearch/nous-hermes-2-mixtral-8x7b-dpo
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000006
+  - completion: 0.0000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-small
+Context Length: 32000
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-tiny
+Context Length: 32000
+Pricing:
+  - prompt: 0.00000025
+  - completion: 0.00000025
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-medium
+Context Length: 32000
+Pricing:
+  - prompt: 0.00000275
+  - completion: 0.0000081
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-7b-instruct-v0.2
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: cognitivecomputations/dolphin-mixtral-8x7b
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-pro-vision
+Context Length: 16384
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000015
+  - image: 0.0025
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/gemini-pro
+Context Length: 32760
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000015
+  - image: 0.0025
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mixtral-8x7b
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000006
+  - completion: 0.0000006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mixtral-8x7b-instruct
+Context Length: 32768
+Pricing:
+  - prompt: 0.00000024
+  - completion: 0.00000024
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openchat/openchat-7b:free
+Context Length: 8192
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openchat/openchat-7b
+Context Length: 8192
+Pricing:
+  - prompt: 0.000000055
+  - completion: 0.000000055
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: neversleep/noromaid-20b
+Context Length: 8192
+Pricing:
+  - prompt: 0.0000015
+  - completion: 0.00000225
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-2:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.000008
+  - completion: 0.000024
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-2
+Context Length: 200000
+Pricing:
+  - prompt: 0.000008
+  - completion: 0.000024
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-2.1:beta
+Context Length: 200000
+Pricing:
+  - prompt: 0.000008
+  - completion: 0.000024
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-2.1
+Context Length: 200000
+Pricing:
+  - prompt: 0.000008
+  - completion: 0.000024
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: teknium/openhermes-2.5-mistral-7b
+Context Length: 4096
+Pricing:
+  - prompt: 0.00000017
+  - completion: 0.00000017
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: undi95/toppy-m-7b:free
+Context Length: 4096
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: undi95/toppy-m-7b
+Context Length: 4096
+Pricing:
+  - prompt: 0.00000007
+  - completion: 0.00000007
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: alpindale/goliath-120b
+Context Length: 6144
+Pricing:
+  - prompt: 0.000009375
+  - completion: 0.000009375
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openrouter/auto
+Context Length: 2000000
+Pricing:
+  - prompt: -1
+  - completion: -1
+  - request: -1
+  - image: -1
+  - web_search: -1
+  - input_cache_read: -1
+  - input_cache_write: -1
+  - internal_reasoning: -1
+
+Model ID: openai/gpt-3.5-turbo-1106
+Context Length: 16385
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4-1106-preview
+Context Length: 128000
+Pricing:
+  - prompt: 0.00001
+  - completion: 0.00003
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/palm-2-chat-bison-32k
+Context Length: 32768
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/palm-2-codechat-bison-32k
+Context Length: 32768
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: jondurbin/airoboros-l2-70b
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000005
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: xwin-lm/xwin-lm-70b
+Context Length: 8192
+Pricing:
+  - prompt: 0.00000375
+  - completion: 0.00000375
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-3.5-turbo-instruct
+Context Length: 4095
+Pricing:
+  - prompt: 0.0000015
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mistralai/mistral-7b-instruct-v0.1
+Context Length: 32768
+Pricing:
+  - prompt: 0.0000002
+  - completion: 0.0000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: pygmalionai/mythalion-13b
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-3.5-turbo-16k
+Context Length: 16385
+Pricing:
+  - prompt: 0.000003
+  - completion: 0.000004
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4-32k
+Context Length: 32767
+Pricing:
+  - prompt: 0.00006
+  - completion: 0.00012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4-32k-0314
+Context Length: 32767
+Pricing:
+  - prompt: 0.00006
+  - completion: 0.00012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: nousresearch/nous-hermes-llama2-13b
+Context Length: 4096
+Pricing:
+  - prompt: 0.00000017
+  - completion: 0.00000017
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: mancer/weaver
+Context Length: 8000
+Pricing:
+  - prompt: 0.0000015
+  - completion: 0.00000225
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: huggingfaceh4/zephyr-7b-beta:free
+Context Length: 4096
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-2.0:beta
+Context Length: 100000
+Pricing:
+  - prompt: 0.000008
+  - completion: 0.000024
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: anthropic/claude-2.0
+Context Length: 100000
+Pricing:
+  - prompt: 0.000008
+  - completion: 0.000024
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: undi95/remm-slerp-l2-13b
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000008
+  - completion: 0.0000012
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/palm-2-chat-bison
+Context Length: 9216
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: google/palm-2-codechat-bison
+Context Length: 7168
+Pricing:
+  - prompt: 0.000001
+  - completion: 0.000002
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: gryphe/mythomax-l2-13b:free
+Context Length: 4096
+Pricing:
+  - prompt: 0
+  - completion: 0
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: gryphe/mythomax-l2-13b
+Context Length: 4096
+Pricing:
+  - prompt: 0.000000065
+  - completion: 0.000000065
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-2-13b-chat
+Context Length: 4096
+Pricing:
+  - prompt: 0.00000022
+  - completion: 0.00000022
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: meta-llama/llama-2-70b-chat
+Context Length: 4096
+Pricing:
+  - prompt: 0.0000009
+  - completion: 0.0000009
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-3.5-turbo
+Context Length: 16385
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-3.5-turbo-0125
+Context Length: 16385
+Pricing:
+  - prompt: 0.0000005
+  - completion: 0.0000015
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4
+Context Length: 8191
+Pricing:
+  - prompt: 0.00003
+  - completion: 0.00006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+Model ID: openai/gpt-4-0314
+Context Length: 8191
+Pricing:
+  - prompt: 0.00003
+  - completion: 0.00006
+  - image: 0
+  - request: 0
+  - input_cache_read: 0
+  - input_cache_write: 0
+  - web_search: 0
+  - internal_reasoning: 0
+
+
+Total models available: 278
+Data retrieved from: https://openrouter.ai/api/v1/models
